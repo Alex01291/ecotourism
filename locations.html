@@ -1,0 +1,196 @@
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Destinos Mágicos - Ecoturismo Mágico en Ciénaga, Magdalena</title>
+<style>
+  :root {
+    --primary-color: #001f3f;
+    --secondary-color: #003366;
+    --accent-color: #0074D9;
+    --text-color: #333333;
+    --background-color: #f0f8ff;
+    --white: #ffffff;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+  }
+  nav {
+    background-color: var(--secondary-color);
+    padding: 0.5rem;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  nav ul li {
+    margin: 0.5rem 1rem;
+  }
+  nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .destino {
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+  .destino-header {
+    position: relative;
+  }
+  .destino-header img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .destino-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 51, 102, 0.8);
+    color: var(--white);
+    padding: 1rem;
+    margin: 0;
+  }
+  .destino-content {
+    padding: 1rem;
+  }
+  .cta-button {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: var(--white);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  .cta-button:hover {
+    background-color: var(--secondary-color);
+  }
+  footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Destinos Mágicos en Ciénaga, Magdalena</h1>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="main1.html">Inicio</a></li>
+      <li><a href="services.html">Servicios</a></li>
+      <li><a href="locations.html">Destinos</a></li>
+      <li><a href="about.html">Sobre Nosotros</a></li>
+      <li><a href="contact.html">Contacto</a></li>
+      <li><a href="resenias.html">Reseñas</a></li>
+  </ul>
+  </nav>
+
+  <main>
+    <section class="destino">
+      <div class="destino-header">
+        <img src="cienaga-grande.jpg" alt="Vista panorámica de la Ciénaga Grande de Santa Marta con manglares y atardecer" width="1200" height="300">
+        <h2 class="destino-title">Ciénaga Grande de Santa Marta</h2>
+      </div>
+      <div class="destino-content">
+        <p>La Ciénaga Grande de Santa Marta es el complejo lagunar más grande de Colombia y un santuario de biodiversidad. Este ecosistema único alberga una increíble variedad de flora y fauna, incluyendo más de 200 especies de aves, muchas de ellas migratorias.</p>
+        <p>En nuestros tours, podrás:</p>
+        <ul>
+          <li>Navegar por los canales entre manglares centenarios</li>
+          <li>Observar flamencos rosados, pelícanos y otras aves exóticas</li>
+          <li>Visitar comunidades de pescadores tradicionales</li>
+          <li>Aprender sobre la importancia ecológica de este humedal</li>
+        </ul>
+        <a href="/tour-cienaga-grande" class="cta-button">Reserva tu aventura en la Ciénaga Grande</a>
+      </div>
+    </section>
+
+    <section class="destino">
+      <div class="destino-header">
+        <img src="sierra-nevada.jpg" alt="Paisaje montañoso de la Sierra Nevada de Santa Marta con vegetación tropical y picos nevados" width="1200" height="300">
+        <h2 class="destino-title">Sierra Nevada de Santa Marta</h2>
+      </div>
+      <div class="destino-content">
+        <p>La Sierra Nevada de Santa Marta es un macizo montañoso único, reconocido como Reserva de la Biosfera por la UNESCO. Es el sistema montañoso costero más alto del mundo y hogar de comunidades indígenas ancestrales.</p>
+        <p>Nuestras expediciones ofrecen:</p>
+        <ul>
+          <li>Trekking por senderos ancestrales</li>
+          <li>Visitas a comunidades indígenas (con respeto y responsabilidad)</li>
+          <li>Observación de flora y fauna endémica</li>
+          <li>Exploración de ríos cristalinos y cascadas</li>
+        </ul>
+        <a href="/expedicion-sierra-nevada" class="cta-button">Explora la Sierra Nevada con nosotros</a>
+      </div>
+    </section>
+
+    <section class="destino">
+      <div class="destino-header">
+        <img src="pueblo-palafito.jpg" alt="Casas coloridas sobre pilotes en el agua de Nueva Venecia, un pueblo palafítico en la Ciénaga Grande" width="1200" height="300">
+        <h2 class="destino-title">Pueblos Palafíticos</h2>
+      </div>
+      <div class="destino-content">
+        <p>Los pueblos palafíticos de la Ciénaga Grande, como Nueva Venecia y Buenavista, son comunidades únicas que viven en casas construidas sobre el agua. Estos asentamientos representan una forma de vida fascinante adaptada al entorno acuático.</p>
+        <p>En nuestras visitas podrás:</p>
+        <ul>
+          <li>Navegar por las "calles" acuáticas de estos pueblos</li>
+          <li>Interactuar con los habitantes locales y conocer su cultura</li>
+          <li>Aprender sobre las técnicas tradicionales de pesca</li>
+          <li>Disfrutar de la gastronomía local basada en pescados y mariscos</li>
+        </ul>
+        <a href="/visita-pueblos-palafiticos" class="cta-button">Descubre la vida en los pueblos palafíticos</a>
+      </div>
+    </section>
+
+    <section class="destino">
+      <div class="destino-header">
+        <img src="centro-historico-cienaga.jpg" alt="Plaza central de Ciénaga con la iglesia San Juan Bautista y edificios coloniales" width="1200" height="300">
+        <h2 class="destino-title">Centro Histórico de Ciénaga</h2>
+      </div>
+      <div class="destino-content">
+        <p>El centro histórico de Ciénaga es un tesoro arquitectónico que refleja la rica historia de la región. Con sus calles empedradas, casas coloniales y edificios republicanos, el centro de la ciudad te transportará a otra época.</p>
+        <p>Nuestros recorridos incluyen:</p>
+        <ul>
+          <li>Visita a la Iglesia San Juan Bautista y la Plaza del Centenario</li>
+          <li>Recorrido por casonas históricas y su arquitectura única</li>
+          <li>Degustación de dulces típicos y café local</li>
+          <li>Relatos sobre la historia bananera y las luchas sociales de la región</li>
+        </ul>
+        <a href="/tour-centro-historico" class="cta-button">Revive la historia en el centro de Ciénaga</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Ecoturismo Mágico - Ciénaga, Magdalena. Todos los derechos reservados.</p>
+    <p>Dirección: Calle 11 #10-22, Centro Histórico, Ciénaga, Magdalena</p>
+    <p>Teléfono: +57 315 123 4567 | Email: info@ecoturismomagico.com</p>
+  </footer>
+</body>
+</html>
