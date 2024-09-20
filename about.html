@@ -91,9 +91,34 @@
     padding: 1rem;
     margin-top: 2rem;
   }
+  .whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  z-index: 1000;
+}
+
+.whatsapp-button img {
+  width: 100%;
+  height: 100%;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
 </style>
 </head>
 <body>
+  <div class="whatsapp-button">
+    <a href="https://wa.me/+573206915918" target="_blank">
+      <img src="whatsapp-icon.png" alt="WhatsApp" />
+    </a>
+  </div>
   <header>
     <h1>Sobre Nosotros</h1>
   </header>
@@ -116,7 +141,7 @@
         <div>
           <h3>America Sarmiento</h3>
           <p>Fundadora y Directora</p>
-          <p>Con más de 20 años de experiencia en turismo sostenible, María ha sido la fuerza impulsora detrás de Ecoturismo Mágico. Su profundo conocimiento de la región y su pasión por la conservación han sido fundamentales en el desarrollo de nuestros programas.</p>
+          <p>Con más de 20 años de experiencia en turismo sostenible, America ha sido la fuerza impulsora detrás de Ecoturismo Mágico. Su profundo conocimiento de la región y su pasión por la conservación han sido fundamentales en el desarrollo de nuestros programas.</p>
         </div>
       </div>
       <div class="team-member">
@@ -124,7 +149,7 @@
         <div>
           <h3>Isaac Bustamante</h3>
           <p>Guía Principal y Experto en Biodiversidad</p>
-          <p>Biólogo de formación y nativo de Ciénaga, Carlos combina su experiencia científica con un profundo amor por su tierra natal. Su entusiasmo contagioso y su vasto conocimiento hacen que cada tour sea una experiencia educativa inolvidable.</p>
+          <p>Biólogo de formación y nativo de Ciénaga, Isaac combina su experiencia científica con un profundo amor por su tierra natal. Su entusiasmo contagioso y su vasto conocimiento hacen que cada tour sea una experiencia educativa inolvidable.</p>
         </div>
       </div>
       <div class="team-member">
@@ -140,23 +165,27 @@
         <div>
           <h3>Juan Diego Ramirez</h3>
           <p>Coordinador de Sostenibilidad</p>
-          <p>Ingeniero ambiental y activista local, David lidera nuestros esfuerzos de conservación y proyectos comunitarios. Su trabajo es crucial para asegurar que nuestras actividades turísticas tengan un impacto positivo en el medio ambiente y en las comunidades locales.</p>
+          <p>Ingeniero ambiental y activista local, Juan Diego lidera nuestros esfuerzos de conservación y proyectos comunitarios. Su trabajo es crucial para asegurar que nuestras actividades turísticas tengan un impacto positivo en el medio ambiente y en las comunidades locales.</p>
         </div>
       </div>
     </section>
 
     <section class="about-section">
       <h2>Nuestros Valores</h2>
-      <p>Nos comprometemos a ofrecer experiencias auténticas y sostenibles que reflejan la esencia de Ciénaga y sus alrededores.</p>
+      <p>En EcoTurismo Ciénaga, nos guiamos por la sostenibilidad, el respeto a la diversidad cultural y natural, y la colaboración con comunidades locales. Promovemos la educación y la autenticidad en nuestras experiencias, empoderando a las comunidades y fomentando un espíritu de aventura que conecta a los viajeros con la riqueza de la región.</p>
     </section>
 
     <section class="about-section">
-      <h2>Nuestro Compromiso</h2>
-      <ul>
-        <li>Promover prácticas de turismo responsable.</li>
-        <li>Apoyar la economía local.</li>
-        <li>Educar sobre la conservación y el respeto cultural.</li>
-      </ul>
+      <h2>Misión</h2>
+      <p>
+        En EcoTurismo Mágico, nos dedicamos a ofrecer experiencias turísticas auténticas que celebran la riqueza cultural y natural de nuestra región. Promovemos la sostenibilidad y el respeto por la biodiversidad, trabajando en colaboración con las comunidades locales para fortalecer su desarrollo económico y social. A través de nuestras aventuras, buscamos crear conciencia sobre la importancia de la conservación del medio ambiente, brindando a los viajeros la oportunidad de aprender y conectarse profundamente con la naturaleza y las tradiciones de Ciénaga.
+      </p>
+    </section>
+    <section class="about-section">
+    <h2>Visión</h2>
+    <p>
+      Ser reconocidos como líderes en el turismo responsable en Ciénaga, transformando cada experiencia en un vehículo para la preservación del medio ambiente y el enriquecimiento de las comunidades locales. Aspiramos a inspirar a viajeros de todo el mundo a adoptar un enfoque consciente hacia el turismo, asegurando que nuestras iniciativas beneficien tanto a las generaciones presentes como a las futuras, creando un legado de respeto y sostenibilidad en la región.
+    </p>
     </section>
   </main>
 
