@@ -113,9 +113,34 @@
     padding: 1rem;
     margin-top: 2rem;
   }
+  .whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  z-index: 1000;
+}
+
+.whatsapp-button img {
+  width: 100%;
+  height: 100%;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
 </style>
 </head>
 <body>
+  <div class="whatsapp-button">
+    <a href="https://wa.me/+573206915918" target="_blank">
+      <img src="whatsapp-icon.png" alt="WhatsApp" />
+    </a>
+  </div>
   <header>
     <h1>Bienvenido a Ecoturismo Mágico</h1>
   </header>
@@ -140,16 +165,16 @@
         <div class="experience-content">
           <h3>Tours por la Ciénaga Grande</h3>
           <p>Explora los manglares de la Ciénaga Grande de Santa Marta. Navega entre manglares, observa aves y conoce a las comunidades locales.</p>
-          <a href="reservar.html?servicio=cienaga-grande" class="btn">Reservar Ahora</a>
+          <a href="contact.html" class="btn">Reservar Ahora</a>
         </div>
       </div>
 
       <div class="experience-card">
-        <img src="Ryan_Whisner_cuidad_perdida2.jpg" alt="Sendero de la Sierra Nevada de Santa Marta">
+        <img src="thermal.jpeg" alt="Sendero de la Sierra Nevada de Santa Marta">
         <div class="experience-content">
-          <h3>Excursiones a la Sierra Nevada</h3>
-          <p>Recorre senderos ancestrales, visita comunidades indígenas y maravíllate con los paisajes de la Sierra Nevada de Santa Marta.</p>
-          <a href="reservar.html?servicio=sierra-nevada" class="btn">Reservar Ahora</a>
+          <h3>Bañate en aguas termales</h3>
+          <p>Relájate en aguas termales naturales, rodeado de paisajes únicos y con beneficios revitalizantes para el cuerpo.</p>
+          <a href="contact.html" class="btn">Reservar Ahora</a>
         </div>
       </div>
 
@@ -158,7 +183,7 @@
         <div class="experience-content">
           <h3>Visitas a Pueblos Palafíticos</h3>
           <p>Conoce los pueblos palafíticos de Nueva Venecia y Buenavista. Aprende sobre su historia y cultura local.</p>
-          <a href="reservar.html?servicio=pueblos-palafiticos" class="btn">Reservar Ahora</a>
+          <a href="contact.html" class="btn">Reservar Ahora</a>
         </div>
       </div>
 
@@ -167,7 +192,7 @@
         <div class="experience-content">
           <h3>Observación de Aves</h3>
           <p>Descubre la rica biodiversidad del Santuario de Flora y Fauna Ciénaga Grande con guías expertos.</p>
-          <a href="reservar.html?servicio=observacion-aves" class="btn">Reservar Ahora</a>
+          <a href="contact.html" class="btn">Reservar Ahora</a>
         </div>
       </div>
 
@@ -176,7 +201,7 @@
         <div class="experience-content">
           <h3>Recorridos Históricos</h3>
           <p>Explora el centro histórico de Ciénaga, visita monumentos y aprende sobre la cultura local.</p>
-          <a href="reservar.html?servicio=recorrido-historico" class="btn">Reservar Ahora</a>
+          <a href="contact.html" class="btn">Reservar Ahora</a>
         </div>
       </div>
 
@@ -185,7 +210,7 @@
         <div class="experience-content">
           <h3>Experiencias Gastronómicas</h3>
           <p>Disfruta de la auténtica cocina cienaguera y participa en clases de cocina y tours gastronómicos.</p>
-          <a href="reservar.html?servicio=experiencia-gastronomica" class="btn">Reservar Ahora</a>
+          <a href="contact.html" class="btn">Reservar Ahora</a>
         </div>
       </div>
     </div>
